@@ -13,6 +13,10 @@ https://docs.google.com/document/d/e/2PACX-1vTtKvGa3P4E-lDqLg3bHRF6Wi9S7GIjSMFEF
 
 ```php
 
+<?php 
+
+use Kagatan\PrivatbankAutoClient\ClientAPI;
+
 $id = '0a550a93-XXX-XXXX-XXXX-1f345gtty56ac53';
 $token = 'your_token';
 
