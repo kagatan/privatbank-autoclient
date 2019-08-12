@@ -65,7 +65,7 @@ class ClientAPI
 
         $response = $this->sendRequest($this->url . $path, $data, array(), "GET", true);
 
-        if (!empty($response['StatementsResponse']['statements'])) {
+        if (isset($response['StatementsResponse']['statements'])) {
             return $response['StatementsResponse']['statements'];
         } else {
             return $response;
@@ -92,7 +92,7 @@ class ClientAPI
 
         $response = $this->sendRequest($this->url . $path, $data, array(), "GET", true);
 
-        if (!empty($response['StatementsResponse']['statements'])) {
+        if (isset($response['StatementsResponse']['statements'])) {
             return $response['StatementsResponse']['statements'];
         } else {
             return $response;
@@ -119,7 +119,7 @@ class ClientAPI
 
         $response = $this->sendRequest($this->url . $path, $data, array(), "GET", true);
 
-        if (!empty($response['StatementsResponse']['statements'])) {
+        if (isset($response['StatementsResponse']['statements'])) {
             return $response['StatementsResponse']['statements'];
         } else {
             return $response;
