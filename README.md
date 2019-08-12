@@ -2,6 +2,7 @@
 Autoclient PrivatBank low-level API implementation
 
 Class for working with account statement PrivatBank (via autoclient)
+Класс для получения онлайн выписки по расчетному счету в ПриватБанке. Выписка выгружается через авто-клиент. Как создать клиента - ссылки с описанием ниже.
 
 
 PrivatBank API:
