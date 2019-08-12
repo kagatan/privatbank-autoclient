@@ -1,0 +1,24 @@
+{
+  "name": "kagatan/privatbank-autoclient",
+  "description": "Class for working with account statement PrivatBank (via autoclient)",
+  "type": "library",
+  "keywords": [
+    "PrivatBank",
+    "AutoClient",
+    "account"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kagatan",
+      "email": "stupakovmax@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Kagatan\\PrivatbankAutoClient\\": "src/"
+    }
+  }
+}
