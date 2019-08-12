@@ -13,6 +13,15 @@ https://docs.google.com/document/d/e/2PACX-1vTion-fu1RzMCQgZXOYKKWAmvi-QAAxZ7AKn
 https://docs.google.com/document/d/e/2PACX-1vTtKvGa3P4E-lDqLg3bHRF6Wi9S7GIjSMFEFxII5qQZBGxuTXs25hQNiUU1hMZQhOyx6BNvIZ1bVKSr/pub
  
  
+ 
+## Installation
+-----------
+Install using composer:
+
+```bash
+composer require kagatan/privatbank-autoclient  
+```
+
 ## Usage
 
 ```php
