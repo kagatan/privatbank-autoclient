@@ -44,10 +44,6 @@ $endDate = time();
 
 $client = new ClientAPI($id, $token);
 
-// Get previous transactions
-$transactions = $client->getPreviousTransactions($acc, $startDate, $endDate);
-var_dump($transactions);
-
 // Get lastday transactions
 $transactions = $Client->getLastdayTransactions($acc); 
 var_dump($transactions);
@@ -55,4 +51,19 @@ var_dump($transactions);
 // Get today transactions
 $transactions = $Client->getTodayTransactions(acc);
 var_dump($transactions);
+
+// Get previous transactions
+$transactions = $client->getPreviousTransactions($acc, $startDate, $endDate);
+var_dump($transactions);
+
+foreach ($transactions AS $transaction) {
+
+    $transaction = array_shift($transaction);
+
+    // Если платеж проведен и нашли инвойс
+    if (isset($transaction['BPL_PR_PR']) AND $transaction['BPL_PR_PR'] == 'r') {
+     //
+    }
+    
+}
 ```
